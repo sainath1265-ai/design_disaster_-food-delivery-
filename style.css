@@ -1,0 +1,90 @@
+/* General style for all pages */
+
+body{
+font-family: Arial, sans-serif;
+text-align:center;
+margin:0;
+padding:40px;
+}
+
+/* Headings */
+
+h1{
+font-size:40px;
+margin-bottom:20px;
+}
+
+/* Buttons */
+
+button{
+padding:10px 20px;
+margin:10px;
+border:none;
+border-radius:5px;
+cursor:pointer;
+font-size:16px;
+}
+
+/* Links */
+
+a{
+text-decoration:none;
+}
+
+/* Input fields */
+
+input{
+padding:10px;
+margin:10px;
+border-radius:5px;
+border:2px solid black;
+}
+
+/* INDEX PAGE */
+
+body.index{
+background-color:yellow;
+color:red;
+}
+
+/* LOGIN PAGE */
+
+body.login{
+background-color:black;
+color:lime;
+}
+
+/* REGISTER PAGE */
+
+body.register{
+background-color:pink;
+color:blue;
+}
+
+/* MENU PAGE */
+
+body.menu{
+background-color:orange;
+color:purple;
+}
+
+/* CART PAGE */
+
+body.cart{
+background-color:lightgreen;
+color:darkblue;
+}
+
+/* PAYMENT PAGE */
+
+body.payment{
+background-color:darkred;
+color:white;
+}
+
+/* TRACKING PAGE */
+
+body.tracking{
+background-color:cyan;
+color:black;
+}
